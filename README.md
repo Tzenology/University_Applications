@@ -11,7 +11,7 @@
 - Jupyter Notebooks
 
 ### Objectives: 
--Clean and prepare data in Excel for further analysis in Python
+- Clean and prepare data in Excel for further analysis in Python
 - Determine gender distribution across applicants
 - Discover most and least applied courses
 - Classify course popularrity (Popularity, Moderate, Niche)
@@ -52,6 +52,15 @@ The chart below shows the rate of course application per gender.
 
 <img width="3564" height="1769" alt="gender_distribution_per_applied_course" src="https://github.com/user-attachments/assets/e9cc852c-c525-469d-865c-8b8ea1c153d1" />
 
+#### Applications by Course Category
+
+The chart below is  avisual representation on the numbers we got when sorting out the applications to see which ones were the `Most Popular`, `Moderate` and `Niche`
+
+<img width="406" height="242" alt="course_category" src="https://github.com/user-attachments/assets/1d15a28d-ed91-4a1a-ae84-4e050e229252" />
+
+
+<img width="1770" height="1165" alt="course_category_distribution" src="https://github.com/user-attachments/assets/003a7ecb-4b38-4bad-b846-edecfa6d1f81" />
+
 #### Gaps in Data
 
 The image below outlines the irregularities in the data we received - particularly missing data
@@ -63,10 +72,13 @@ The image below outlines the irregularities in the data we received - particular
 ### Recommendations 
 - The University either needs to stregthen their marketing efforts for courses like Digital Film & Television, Professional Design and Business Information Technology or discontinue said course.
 - Seeing the rise of efforts made towards empowering women in STEM globally, the universty would benefit a lot by offering course couselling & strengthning their marketing efforts to prospective female applicants for tech & design courses.
-- Design and Communication courses have the least applications not because students are not interested in them but mainly because students don't know about them or aren't familiar with the career paths they can follow after gaining these qualifications. The university can therefore strengthen their marketing efforts for these courses by posting content that explores the dynamics of these courses on their social media platforms for students to interact with.
+- Design and Communication courses have the least applications not because students are not interested in them but mainly because thye are niche in the country and prospective students don't know about them or aren't familiar with the career paths they can follow after gaining these qualifications. The university can therefore strengthen their marketing efforts for these courses by posting content that explores the dynamics of these courses on their social media platforms for students to interact with.
 
 ### Challenges
 
 - I started working on this project in Python before first merging the sheets and cleaning the data in Excel. While learning how to merge sheets in excel was eye-opening it was very challenging because at the end of the project i had lost a lot of data. I was expecting 1004 entries but only had 100. I redid the project in excel first and then migrated to Python which was smooth sailing.
 - Missing data corrupted my file when i tried working on this project in Python before cleaning it up in Excel first which made it very challenging. Everything was much easier after I did basic cleaning in Excel.   
 
+### Future Work
+- Analyze second option data
+- Build a dashboard using Tableau or Power BI
